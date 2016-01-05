@@ -1,0 +1,192 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relateve_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activity_fileexp_settings" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="88.33"
+                android:text="Show Hidden Files"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <FrameLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20" >
+
+                <CheckBox
+                    android:id="@+id/set_hidden_files"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="20" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/holo_green_dark" />
+
+        <LinearLayout
+            android:id="@+id/set_linearlayout_background_main_clour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="75.78"
+                android:text="Background colour"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <FrameLayout
+                android:id="@+id/FrameLayout1"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30" >
+
+                <ImageView
+                    android:id="@+id/set_bag_colour_imageButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/f_holo_purple" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/holo_green_dark" />
+
+        <LinearLayout
+            android:id="@+id/set_linearlayout_foldericon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="84.39"
+                android:text="Folder Icon"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <FrameLayout
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20" >
+
+                <ImageView
+                    android:id="@+id/set_folder_icon_imgView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/a_folder_yellow" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/holo_green_dark" />
+
+        <LinearLayout
+            android:id="@+id/set_linearlayout_text_colour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="77.49"
+                android:text="Text Colour"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <FrameLayout
+                android:id="@+id/FrameLayout02"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30" >
+
+                <ImageView
+                    android:id="@+id/ImageView_text_colour"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/f_holo_purple" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/holo_green_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/TextView_remember_directory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="88.33"
+                android:text="Remember Directory"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <FrameLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20" >
+
+                <CheckBox
+                    android:id="@+id/CheckBox_remember_dir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="20" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/holo_green_dark" />
+
+    </LinearLayout>
+
+</RelativeLayout>

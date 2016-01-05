@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">File Explorer Lite</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_listdirectry">File Explorer Lite</string>
+    <string name="title_activity_word">Word</string>
+    <string name="title_activity_abouty">AboutyActivity</string>
+    <string name="title_activity_activity_fileexp_settings">Activity_fileexp_settings</string>
+
+</resources>
